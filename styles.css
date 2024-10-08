@@ -26,24 +26,3 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 5px;
-    z-index: 1000;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
